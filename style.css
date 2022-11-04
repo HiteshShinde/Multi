@@ -269,7 +269,7 @@ a {
 }
 
 #features .feature-images img {
-    width: 600px;
+    width: 100%;
 }
 
 #features .feature-images .img-1 {
@@ -331,7 +331,7 @@ a {
 
 #testimonials .items {
     display: flex;
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 #testimonials .items .item img {
@@ -703,6 +703,10 @@ a {
         color: inherit;
         text-decoration: none;
         transition: color 0.4s ease;
+    }
+
+    .menu-wrap .menu > div > div > ul > li > a:hover {
+        color: #FF4E37;
     }
 
     #creative .crSol {
